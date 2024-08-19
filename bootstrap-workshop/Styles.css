@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.container{
+    background-color: rgb(245, 252, 252);
+    height: 100vh;
+    width: 67%;
+}
+
+.box{
+    background-color: rgb(247, 240, 233);
+    height: 71vh;
+    width: 92%;
+    transform: translateY(-20px);
+}
+
+.inner-box{
+    height: 40vh;
+    width: 27vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.h1{
+    font-weight: 700;
+    font-size: 19px;
+}
+
+h3{
+    letter-spacing: 3px;
+    color: rgb(105, 105, 105);
+    font-size: 8px;
+}
+
+p{
+    color: rgb(105, 105, 105);
+}
+
+del{
+    color: rgb(105, 105, 105);
+}
+
+.number-style{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
