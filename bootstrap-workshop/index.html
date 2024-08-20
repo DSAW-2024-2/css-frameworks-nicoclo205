@@ -11,44 +11,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
-<body class="bg-dark">
-  <div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
-    <div class="container d-flex justify-content-center align-items-center">
-      <div class="box shadow-lg d-flex justify-content-center align-items-center">
-          <div class="row g-0">
-            <div class="col">
-              <div class="inner-box rounded-start-4">
-                <img src="assets/images/image-product-desktop.jpg" alt="product image">
+<body>
+ <div class="container-fluid d-flex justify-content-center align-items-center">
+  <div class="container d-flex justify-content-center align-items-center shadow-lg no-shadow">
+    <div class="card card-size rounded-4">
+      <div class="row g-0">
+        <div class="col-lg-6">
+          <img src="perfume-image.jpg" alt="perfume-image" class="img-fluid w-100 h-100 rounded-start-4">
+        </div>
+        <div class="col-lg-6">
+          <div class="card-body ms-4 me-4">
+            <h3 class="text-uppercase mt-4 h3">perfume</h3>
+            <h1 class="font-weight-bold h1">Gabrielle Essence Eau De Parfum</h1>
+            <p class="p">A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.</p>
+            <div class="row">
+              <div class="col">
+                <h1 class="text-success number-style">$149.99</h1>
+              </div>
+              <div class="col d-flex align-items-center">
+                <del class="p">$169.99</del>
               </div>
             </div>
-            <div class="col">
-              <div class="inner-box rounded-end-4">
-                <br>
-                <h3 class="text-uppercase ms-4">perfume</h3>
-                <h1 class="font-weight-bold ms-4 me-5 mt-4 h1">Gabrielle Essence Eau De Parfum</h1>
-                <p class="ms-4 me-5 mt-4">A floral, solar and voluptuous interpretation
-                  composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.</p>
-                </p>
-                <div class="row">
-                  <div class="col">
-                    <h1 class="d-flex justify-content-end ms-4 text-success number-style">$149.99</h1>
-                  </div>
-                  <div class="col d-flex align-items-center">
-                    <del>$169.99</del>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-center mt-4">
-                  <button class="btn btn-success w-100 py-3 ms-4 me-5"><i class="fa-light fa-cart-shopping"></i>
-                    <span>Add to cart</span>
-                  </button>
-                </div>
-              </div>
+            <div class="d-flex justify-content-center mt-4">
+              <button class="btn btn-success w-100 py-3" onclick='alert("Added to cart!")'><i class="fas fa-shopping-cart"></i>
+                <span>Add to cart</span>
+              </button>
             </div>
           </div>
+        </div>
       </div>
     </div>
+  </div>
 </div>
-
 
 
   <!-- No elimine este tag -->

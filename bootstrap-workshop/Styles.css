@@ -6,44 +6,67 @@
     font-family: Georgia, 'Times New Roman', Times, serif ;
 }
 
-.container{
+.container-fluid{
     background-color: rgb(245, 252, 252);
     height: 100vh;
-    width: 67%;
+    width: 100%;
 }
 
-.box{
+.container{
     background-color: rgb(247, 240, 233);
-    height: 71vh;
-    width: 92%;
-    transform: translateY(-20px);
+    height: 70vh;
+    width: 55%;
 }
 
-.inner-box{
-    height: 40vh;
-    width: 27vh;
-    background-color: rgb(255, 255, 255);
+.card-size{
+    height: auto;
+    width: 45%;
 }
 
 .h1{
     font-weight: 700;
-    font-size: 19px;
+    font-size: 21px;
 }
 
-h3{
+.h3{
     letter-spacing: 3px;
     color: rgb(105, 105, 105);
     font-size: 8px;
 }
 
-p{
-    color: rgb(105, 105, 105);
-}
-
-del{
+.p{
     color: rgb(105, 105, 105);
 }
 
 .number-style{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 1080px){
+    
+    *{
+        padding:0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container-fluid{
+        background-color: rgb(247, 240, 233);
+        width: 100%;
+        height: 100%;
+    }
+
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .card-size{
+        width: 95%;
+    }
+
+    .no-shadow{
+        box-shadow: none !important;
+    }
+    
 }
