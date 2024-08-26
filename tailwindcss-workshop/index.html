@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>tailwindcss Workshop</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
-  <body> 
-    Your Result
-    76
-    of 100
-  
-    Great
-    You scored higher than 65% of the people who have taken these tests.
-  
-    Summary
-  
-    Reaction
-    80 / 100
-  
-    Memory
-    92 / 100
-  
-    Verbal
-    61 / 100
-  
-    Visual
-    72 / 100
-  
-    Continue
-
+  <body class="h-screen flex items-center justify-center bg-sky-50 font-serif"> 
+    <div class="size-full md:w-[55%] md:h-[72%] bg-orange-50 shadow-xl flex justify-center items-center">
+      <div class="w-[80%] h-auto md:w-[44%] md:h-[55%] rounded-md flex flex-col md:flex-row gap-0">
+        <div class="w-full md:w-1/2 h-full rounded-t-md md:rounded-e-none md:rounded-s-md">
+          <img src="perfume-image.jpg" alt="perfume-desktop" class="hidden md:block size-full rounded-s-md">
+          <img src="image-product-mobile.jpg" alt="perfume-mobile" class="md:hidden size-full rounded-t-md">
+        </div>
+        <div class="w-full md:w-1/2 h-full bg-white rounded-b-md md:rounded-b-none md:rounded-e-md">
+          <p class="ms-5 mt-5 p text-[10px] md:text-[8px] tracking-[.30em] text-gray-500">PERFUME</p>
+          <h1 class="ms-5 me-5 text-[25px] md:text-xl font-bold">Gabrielle Essence Eau De Parfum</h1>
+          <p class="ms-5 me-5 text-[13px] md:text-[9px] text-gray-500 mt-1">A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.</p>
+          <div class="flex mt-1 md:ms-3">
+            <div class="w-full h-10 text-[25px] md:text-xl font-semibold flex justify-center items-center text-green-600">
+              $149.99
+            </div>
+            <del class="w-full h-10 text-[10px] flex justify-start items-center">
+              169.99
+            </del>
+          </div>
+          <div class="flex justify-center items-center">
+          <button class="w-full h-10 md:h-8 ms-5 me-5 mb-5 bg-green-600 text-white mt-1 text-[12px] md:text-[10px] rounded-md" onclick='alert("Added to cart!")'><i class="fas fa-shopping-cart"></i>
+            <span>Add to cart</span>
+          </button>
+        </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
